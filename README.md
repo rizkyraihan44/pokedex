@@ -1,8 +1,17 @@
-# React + Vite
+# Pokedex
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### Main
 
-Currently, two official plugins are available:
+![Project Screenshot](./project/assets/main.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Search By Name
+
+![Search Pokemon](./project/assets//searchbyname.png)
+
+### Search By Number
+
+![Search By Id](./project/assets/searchByNumberInList.png)
+
+### Move Modal
+
+![Moves modal](./project/assets/moves.png)

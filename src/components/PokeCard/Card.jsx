@@ -47,12 +47,13 @@ const Card = ({ selectedPokemon }) => {
       </div>
       <TypeContainer types={types} />
       <PokemonImage sprites={sprites} name={name} imgList={imgList} />
+      <h3>Stats</h3>
       <StatsContainer stats={stats} />
       <h3>Abilities</h3>
       <AbilitiesContainer abilities={abilities} />
       <h3>Moves</h3>
       <MovesContainer moves={moves} fetchMoveData={fetchMoveData} />
-    </div>
+    </div >
   )
 }
 
