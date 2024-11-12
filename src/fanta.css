@@ -116,7 +116,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Eczar", serif;
+    font-family: 'Eczar', serif;
 }
 
 body {
@@ -130,11 +130,14 @@ body {
 .text-gradient {
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
-    background-image: linear-gradient(135deg, var(--gradient-start) 0, var(--gradient-end) 100%);
+    background-image: linear-gradient(
+        135deg,
+        var(--gradient-start) 0,
+        var(--gradient-end) 100%
+    );
     background-size: 100%;
     -webkit-box-decoration-break: clone;
 }
-
 
 /* Typography */
 h1,
@@ -144,7 +147,7 @@ h4,
 h5,
 h6,
 button {
-    font-family: "Grenze", serif;
+    font-family: 'Grenze', serif;
     width: fit-content;
 }
 
@@ -191,15 +194,20 @@ span {
 
 /* Content Sectioning */
 
-main {}
+main {
+}
 
-header {}
+header {
+}
 
-footer {}
+footer {
+}
 
-nav {}
+nav {
+}
 
-section {}
+section {
+}
 
 address {
     font-style: normal;
@@ -216,7 +224,6 @@ aside {
     border-radius: var(--border-radius-large);
 }
 
-
 /* Text Content */
 blockquote {
     position: relative;
@@ -225,7 +232,7 @@ blockquote {
 }
 
 blockquote::after {
-    content: "";
+    content: '';
     display: block;
     position: absolute;
     left: 0;
@@ -243,21 +250,23 @@ dd {
     padding-bottom: 11px;
 }
 
-dl {}
+dl {
+}
 
 dt {
     font-weight: bold;
 }
 
-figure {}
+figure {
+}
 
 figcaption {
     padding-top: 10px;
     font-size: 0.8rem;
 }
 
-hr {}
-
+hr {
+}
 
 ul,
 ol {
@@ -320,7 +329,7 @@ pre {
     overflow-x: auto;
 }
 
-pre>code {
+pre > code {
     padding: 10px;
     border: 0;
     display: block;
@@ -414,11 +423,11 @@ textarea {
 
 button,
 select,
-input[type="submit"],
-input[type="button"],
-input[type="checkbox"],
-input[type="range"],
-input[type="radio"] {
+input[type='submit'],
+input[type='button'],
+input[type='checkbox'],
+input[type='range'],
+input[type='radio'] {
     cursor: pointer;
 }
 
@@ -479,23 +488,23 @@ input:disabled {
     opacity: 0.6;
 }
 
-input[type="number"].buttonless {
+input[type='number'].buttonless {
     appearance: textfield;
     -moz-appearance: textfield;
 }
 
-input[type="number"].buttonless::-webkit-inner-spin-button {
+input[type='number'].buttonless::-webkit-inner-spin-button {
     display: none;
     appearance: none;
 }
 
-input[type="number"].buttonless::-webkit-outer-spin-button {
+input[type='number'].buttonless::-webkit-outer-spin-button {
     -webkit-appearance: none;
     margin: 0;
 }
 
-input[type="checkbox"],
-input[type="radio"] {
+input[type='checkbox'],
+input[type='radio'] {
     padding: 0.5rem;
     width: fit-content;
     vertical-align: middle;
@@ -505,26 +514,26 @@ input[type="radio"] {
     margin-top: 0.31em; */
 }
 
-input[type="checkbox"] {
+input[type='checkbox'] {
     border-radius: 7px;
     margin-left: 0;
 }
 
-input[type="radio"] {
+input[type='radio'] {
     border-radius: 100%;
 }
 
-input[type="checkbox"]:checked,
-input[type="radio"]:checked {
+input[type='checkbox']:checked,
+input[type='radio']:checked {
     background: var(--border-secondary);
 }
 
-input[type="range"] {
+input[type='range'] {
     vertical-align: middle;
     padding: 0;
 }
 
-input[type="color"] {
+input[type='color'] {
     appearance: none;
     border: none;
     outline-style: none;
@@ -647,7 +656,6 @@ details[open] summary {
     transform: none;
     opacity: 0.6;
 }
-
 
 @media (min-width: 640px) {
     body {

@@ -1,4 +1,4 @@
-import { pokemonTypeColors } from "../utils"
+import { pokemonTypeColors } from "../../utils"
 
 /* eslint-disable react/prop-types */
 const TypeCard = ({ type }) => {

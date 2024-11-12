@@ -1,7 +1,11 @@
-const Header = () => {
+/* eslint-disable react/prop-types */
+const Header = ({ handleToggleMenu }) => {
   return (
     <header>
-      <h1>TEST</h1>
+      <button className="open-nav-button" onClick={handleToggleMenu}>
+        <i className="fa-solid fa-bars"></i>
+      </button>
+      <h1 className="text-gradient">Pokedex</h1>
     </header>
   )
 }
